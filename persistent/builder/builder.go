@@ -66,6 +66,7 @@ func build(m map[string]interface{},op string)([]string,[]interface{}){
 	return cond,values
 }
 
+
 //装配条件表达式
 func assembleExpression(field,op string)string{
 	return field + op + "?"
